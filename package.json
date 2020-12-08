@@ -1,0 +1,35 @@
+{
+  "name": "@telemetry-js/publisher-ndjson",
+  "version": "0.1.1",
+  "description": "Publish metrics as NDJSON to a stream, stdout or stderr",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "fast-json-stringify": "~1.15.2",
+    "sonic-boom": "~0.7.3"
+  },
+  "devDependencies": {
+    "@telemetry-js/metric": "^0.1.2",
+    "hallmark": "^3.1.0",
+    "readable-stream": "^3.3.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/publisher-ndjson",
+  "bugs": "https://github.com/telemetry-js/publisher-ndjson/issues",
+  "homepage": "https://github.com/telemetry-js/publisher-ndjson",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
